@@ -1,0 +1,16 @@
+{
+  "name": "copyfromonebuckettoanother",
+  "version": "1.0.0",
+  "description": "This Application is for copying file from one google bucket to another bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankush V. Nakaskar",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.18.0",
+    "@google-cloud/storage": "^1.7.0",
+    "express": "^4.16.3"
+  }
+}
